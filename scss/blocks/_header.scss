@@ -1,0 +1,142 @@
+.site-header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header__logo{
+    text-decoration: none;
+}
+
+.nav__list{
+    display: flex;
+    list-style: none;
+    
+}
+
+.nav__item + .nav__item{
+    margin-left: 20px;
+
+}
+
+.nav__link{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #83888F;
+}
+
+.site-about{
+    background: url(/img/img.png) no-repeat;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.about{
+    width: 450px;
+}
+
+
+.about__text{
+    font-family: Fraunces 9pt;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48 px;
+    color: #FEFCF7;
+
+    
+
+}
+
+.about__description{
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+
+    
+}
+
+.about{
+    padding-left: 90px;
+    padding-top: 120px;
+}
+
+// .about__text {
+//     padding-left: 90px;
+//     padding-top: 120px;
+// }
+
+// .about__description{
+//     padding-left: 90px;
+// }
+
+.site-header__hamburg-btn{
+    background-color: transparent;
+    border: none;
+    display: none;
+}
+
+
+@media only screen and (max-width: 680px){
+    .site-header__hamburg-btn{
+        display: block;
+
+    }
+
+    .nav{
+        display: none;
+    }
+
+    .about{
+        text-align: center;
+        padding-left: 30px;
+        padding-top: 80px;
+    }
+}
+
+@media only screen and (max-width: 560px){
+    .about{
+        margin-top: 10px;
+        width: 100%;
+        padding-left: 0;
+        padding-top: 100px;
+       
+
+    }
+}
+
+@media only screen and (max-width:426px){
+    .about{
+        margin-top: 10px;
+        width: 100%;
+        padding-left: 0;
+        padding-top: 100px;
+       
+
+    }
+}
+
+@media only screen and (max-width:376px){
+    .about{
+        margin-top: 10px;
+        width: 100%;
+        padding-top: 70px;
+        padding-left: 0;
+
+    }
+    
+}
+
+@media only screen and (max-width: 321px){
+    .about{
+        width: 100%;
+        margin-top: 10px;
+        padding-left: 0;
+        padding-top: 80px;
+
+    }
+
+}
